@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+34567890 2 4
+ICT283 Data_Structures_And_Abstractions A 3 85.5 15 3 2026
+ICT159 Foundations_Of_Programming B 3 92.0 20 6 2026
+ICT289 Computer_Graphics A 3 78.0 10 11 2026
+=======
+34567890 2 4
+ICT283 Data_Structures_And_Abstractions A 3 85.5 15 3 2026
+ICT159 Foundations_Of_Programming B 3 92.0 20 6 2026
+ICT289 Computer_Graphics A 3 78.0 10 11 2026
+>>>>>>> 41f9e42 (Update from vscode)
+MTH3020 Advanced_Mathematics C 3 88.5 5 12 2026

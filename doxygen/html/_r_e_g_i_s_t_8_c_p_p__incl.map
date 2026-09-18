@@ -1,0 +1,18 @@
+<map id="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/REGIST.CPP" name="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/REGIST.CPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,5,298,80"/>
+<area shape="rect" id="Node000002" href="$_r_e_g_i_s_t_8_h.html" title="Header file for the Registration class." alt="" coords="150,128,234,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,80,194,112,189,112,189,80"/>
+<area shape="rect" id="Node000003" href="$_r_e_s_u_l_t_8h.html" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="109,203,195,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,157,168,190,164,188,183,154"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="131,352,202,379"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="198,154,209,202,212,254,200,305,184,340,180,337,195,303,206,254,204,203,193,156"/>
+<area shape="rect" id="Node000004" href="$_u_n_i_t_8h.html" title="Header file for the UNIT class using std::string." alt="" coords="5,277,72,304"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,232,73,271,70,266,131,228"/>
+<area shape="poly" id="edge8_Node000003_Node000005" title=" " alt="" coords="161,229,171,251,180,277,181,308,177,337,172,337,176,308,175,278,167,252,156,231"/>
+<area shape="rect" id="Node000007" href="$_d_a_t_e_8h.html" title="Header file for the Date class representing a calendar date." alt="" coords="95,277,166,304"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="151,231,141,263,136,262,146,229"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="62,302,132,342,130,346,59,307"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="12,352,65,379"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="41,305,41,336,36,336,36,305"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="139,303,156,337,151,339,134,306"/>
+</map>

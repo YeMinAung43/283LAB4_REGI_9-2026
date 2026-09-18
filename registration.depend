@@ -1,0 +1,349 @@
+<<<<<<< HEAD
+# depslib dependency file v1.0
+830090216 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\course.cpp
+	"course.h"
+
+1235478704 c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1235478734 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1235478688 c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1235476234 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\regist.cpp
+	"regist.h"
+
+830090216 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\course.cpp
+	"course.h"
+
+1235478704 \\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1235478734 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1235478688 \\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1235476234 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\regist.cpp
+	"regist.h"
+
+1457336386 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\course.cpp
+	"course.h"
+
+1457336962 \\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1457337038 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1488617813 \\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1457336550 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\regist.cpp
+	"regist.h"
+
+1707906646 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\regist.cpp
+	"regist.h"
+
+1708371269 d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\regist.h
+	"course.h"
+	<iostream>
+
+1708371342 d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\course.h
+	<iostream>
+
+1707907262 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1709033267 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\main.cpp
+	"course.h"
+	"regist.h"
+	<iostream>
+	<fstream>
+
+1707907264 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1708371342 c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\course.h
+	<iostream>
+
+1707906648 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\regist.cpp
+	"regist.h"
+
+1708371270 c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\regist.h
+	"course.h"
+	<iostream>
+
+1736934142 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\main.cpp
+	"course.h"
+	"regist.h"
+	<iostream>
+	<fstream>
+
+1757379304 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1708371342 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\course.h
+	<iostream>
+
+1788414634 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\unit.cpp
+	"UNIT.h"
+	<cstring>
+	<string.h>
+
+1788419726 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\unit.h
+	<iostream>
+
+1788414884 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\main.cpp
+	"UNIT.H"
+	"REGIST.H"
+	<iostream>
+	<fstream>
+
+1788419742 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\regist.h
+	"RESULT.H"
+	<iostream>
+
+1788419737 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\result.h
+	"UNIT.H"
+	<iostream>
+
+1788414718 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\result.cpp
+	"RESULT.H"
+
+1788413124 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\regist.cpp
+	"regist.h"
+
+1789018937 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\date.cpp
+	"DATE.H"
+
+1789018904 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\date.h
+	<iostream>
+
+1789019174 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\main.cpp
+	"REGIST.H"
+	<iostream>
+	<fstream>
+
+1789019144 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\regist.h
+	"RESULT.H"
+	<iostream>
+
+1789019119 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\result.h
+	"UNIT.H"
+	"DATE.H"
+	<iostream>
+
+1789019326 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\unit.h
+	<iostream>
+	<string>
+
+1789019152 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\regist.cpp
+	"REGIST.H"
+
+1789020817 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\result.cpp
+	"RESULT.H"
+
+1789019106 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\unit.cpp
+	"UNIT.H"
+
+1789019626 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\dataarray.cpp
+	<iostream>
+	<cmath>
+
+=======
+# depslib dependency file v1.0
+830090216 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\course.cpp
+	"course.h"
+
+1235478704 c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1235478734 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1235478688 c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1235476234 source:c:\users\rai\desktop\new folder\ict209\practice\registration\codeblocks\regist.cpp
+	"regist.h"
+
+830090216 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\course.cpp
+	"course.h"
+
+1235478704 \\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1235478734 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1235478688 \\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1235476234 source:\\sphinx\s900391h\units\ict209\_7y9uq~q\.old15\practice\session02\registration\codeblocks\regist.cpp
+	"regist.h"
+
+1457336386 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\course.cpp
+	"course.h"
+
+1457336962 \\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\course.h
+	<iostream>
+	<string.h>
+
+1457337038 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\main.cpp
+	<iostream>
+	<fstream>
+	"course.h"
+	"regist.h"
+
+1488617813 \\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\regist.h
+	<iostream>
+	"course.h"
+
+1457336550 source:\\sphinx\s900391h\smr\smr\ict209-ict283\2017\tj - 6x4\placed in lms\session01\01 - pre-workshop\topic02\practical\registration\codeblocks\regist.cpp
+	"regist.h"
+
+1707906646 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\regist.cpp
+	"regist.h"
+
+1708371269 d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\regist.h
+	"course.h"
+	<iostream>
+
+1708371342 d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\course.h
+	<iostream>
+
+1707907262 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1709033267 source:d:\dell\data\od\tmp\data01\onedrive\units\ict283\topicslms\topic02\practical\registration-code\main.cpp
+	"course.h"
+	"regist.h"
+	<iostream>
+	<fstream>
+
+1707907264 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1708371342 c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\course.h
+	<iostream>
+
+1707906648 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\regist.cpp
+	"regist.h"
+
+1708371270 c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\regist.h
+	"course.h"
+	<iostream>
+
+1736934142 source:c:\users\yemin\onedrive\desktop\kaplan\2025 tsa\ict 283 data structure (past)\topic 2\practical\registration-code\main.cpp
+	"course.h"
+	"regist.h"
+	<iostream>
+	<fstream>
+
+1757379304 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\course.cpp
+	"course.h"
+	<string.h>
+
+1708371342 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\course.h
+	<iostream>
+
+1788414634 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\unit.cpp
+	"UNIT.h"
+	<cstring>
+	<string.h>
+
+1788419726 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\unit.h
+	<iostream>
+
+1788414884 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\main.cpp
+	"UNIT.H"
+	"REGIST.H"
+	<iostream>
+	<fstream>
+
+1788419742 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\regist.h
+	"RESULT.H"
+	<iostream>
+
+1788419737 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\result.h
+	"UNIT.H"
+	<iostream>
+
+1788414718 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\result.cpp
+	"RESULT.H"
+
+1788413124 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab3\registration-code\regist.cpp
+	"regist.h"
+
+1789018937 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\date.cpp
+	"DATE.H"
+
+1789018904 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\date.h
+	<iostream>
+
+1789019174 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\main.cpp
+	"REGIST.H"
+	<iostream>
+	<fstream>
+
+1789019144 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\regist.h
+	"RESULT.H"
+	<iostream>
+
+1789019119 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\result.h
+	"UNIT.H"
+	"DATE.H"
+	<iostream>
+
+1789019326 c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\unit.h
+	<iostream>
+	<string>
+
+1789019152 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\regist.cpp
+	"REGIST.H"
+
+1789020817 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\result.cpp
+	"RESULT.H"
+
+1789019106 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\unit.cpp
+	"UNIT.H"
+
+1789019626 source:c:\users\yemin\onedrive\desktop\kaplan\2026 tsa\ict 283 final\lab\lab 4\registration-code\dataarray.cpp
+	<iostream>
+	<cmath>
+
+>>>>>>> 41f9e42 (Update from vscode)

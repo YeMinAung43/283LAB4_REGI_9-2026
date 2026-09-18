@@ -1,0 +1,7 @@
+<map id="UNIT::UNIT" name="UNIT::UNIT">
+<area shape="rect" id="Node000001" title="Default constructor for UNIT. Initializes member string variables to empty strings and numeric fields..." alt="" coords="177,31,269,57"/>
+<area shape="rect" id="Node000002" href="$class_u_n_i_t.html#a20ec066a5d7ed7ea5a13512a0d17821d" title="Overloaded stream insertion operator for outputting UNIT details." alt="" coords="5,5,129,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,37,129,31,129,26,162,31"/>
+<area shape="rect" id="Node000003" href="$class_u_n_i_t.html#a96f33e89351ceca3da3193a92cfabe4c" title="Overloaded stream extraction operator for reading UNIT details." alt="" coords="5,56,129,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,57,129,62,129,57,161,51"/>
+</map>

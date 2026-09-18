@@ -1,0 +1,9 @@
+<map id="UNIT" name="UNIT">
+<area shape="rect" id="Node000001" title="Stores unit information including unit ID, name, section, and credits." alt="" coords="15,155,180,528"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,48,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,74,52,137,47,139,32,75"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,5,115,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,74,100,138,95,138,95,74"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="166,5,191,75"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,75,155,139,150,137,167,74"/>
+</map>

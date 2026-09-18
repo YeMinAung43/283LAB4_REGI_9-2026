@@ -1,0 +1,67 @@
+\doxysection{C\+:/\+Users/yemin/\+One\+Drive/\+Desktop/\+Kaplan/2025 TSA/\+ICT 283 Data Structure (Past)/\+Topic 2/\+Practical/\+Registration-\/code/\+REGIST.H}
+\hypertarget{_r_e_g_i_s_t_8_h_source}{}\label{_r_e_g_i_s_t_8_h_source}\mbox{\hyperlink{_r_e_g_i_s_t_8_h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00001}00001\ \textcolor{comment}{//\ REGIST.H\ -\/\ Registration\ class\ definition/interface}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00002}00002\ \textcolor{comment}{//\ author\ KRI}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00003}00003\ \textcolor{comment}{//\ modified\ smr}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00005}00005\ \textcolor{preprocessor}{\#ifndef\ REGIST\_H}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00006}00006\ \textcolor{preprocessor}{\#define\ REGIST\_H}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_c_o_u_r_s_e_8_h}{course.h}}"{}}\ \textcolor{comment}{//\#include\ your\ own\ files\ first}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00013}00013\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00015}\mbox{\hyperlink{_r_e_g_i_s_t_8_h_ab25b60dda84db104dc226855d3814d03}{00015}}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{_r_e_g_i_s_t_8_h_ab25b60dda84db104dc226855d3814d03}{MaxCourses}}\ =\ 10;}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00017}\mbox{\hyperlink{class_registration}{00017}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_registration_aac811faf22fe96a7f657a282d6d679ab}{Registration}}\ \{}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00018}00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00019}00019\ \ \ \mbox{\hyperlink{class_registration_aac811faf22fe96a7f657a282d6d679ab}{Registration}}();}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00021}00021\ \ \ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{class_registration_a72a5cc800d9551d69e4c201cd9f07ccd}{GetCredits}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00022}00022\ \ \ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{class_registration_a729a2d6ae08aefd2dbe10ec7b3e5ce48}{GetCount}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00025}00025\ \ \ \textcolor{comment}{//\ These\ operators\ have\ been\ made\ friends.\ They\ have}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00026}00026\ \ \ \textcolor{comment}{//\ privileged\ access\ to\ class\ internals.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00027}00027\ \ \ \textcolor{comment}{//\ Very\ useful\ for\ debugging\ the\ class,\ but\ not\ very\ good\ for\ class\ design.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00028}00028\ \ \ \textcolor{comment}{//\ We\ will\ keep\ using\ it\ for\ now\ but\ you\ will\ have\ a\ chance\ in\ a\ later\ lab}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00029}00029\ \ \ \textcolor{comment}{//\ to\ redesign\ this\ class.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00030}00030\ \ \ \textcolor{keyword}{friend}\ ostream\ \&\ \mbox{\hyperlink{class_registration_a0fd17e4423f843b3a2d6d265ef12419e}{operator\ <<}}(\ ostream\ \&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_registration_aac811faf22fe96a7f657a282d6d679ab}{Registration}}\ \&\ R);}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00032}00032\ \ \ \textcolor{keyword}{friend}\ istream\ \&\ \mbox{\hyperlink{class_registration_ac6e479de58958d2b0a2295ceb04926da}{operator\ >>}}(\ istream\ \&\ input,\ \mbox{\hyperlink{class_registration_aac811faf22fe96a7f657a282d6d679ab}{Registration}}\ \&\ R\ );}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00034}00034\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00035}\mbox{\hyperlink{class_registration_afd5372c81feb6789de53e214cce5de98}{00035}}\ \ \ \textcolor{keywordtype}{long}\ \mbox{\hyperlink{class_registration_afd5372c81feb6789de53e214cce5de98}{studentId}};\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ student\ ID\ number}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00036}\mbox{\hyperlink{class_registration_a8066587368d525893c3815e03c34624a}{00036}}\ \ \ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{class_registration_a8066587368d525893c3815e03c34624a}{semester}};\ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ semester\ year,\ number}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00037}\mbox{\hyperlink{class_registration_ae3a559909696991600f8df336e5b3f83}{00037}}\ \ \ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{class_registration_ae3a559909696991600f8df336e5b3f83}{count}};\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ number\ of\ courses}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00038}\mbox{\hyperlink{class_registration_a37da79c85c943abe9305dce43d3fe2c8}{00038}}\ \ \ \mbox{\hyperlink{class_course}{Course}}\ \mbox{\hyperlink{class_registration_a37da79c85c943abe9305dce43d3fe2c8}{courses}}[\mbox{\hyperlink{_r_e_g_i_s_t_8_h_ab25b60dda84db104dc226855d3814d03}{MaxCourses}}];\ \textcolor{comment}{//\ array\ of\ courses}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00039}00039\ \};}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00041}00041\ \textcolor{comment}{//\ No\ implementation\ (code\ body)\ should\ be\ found\ after\ the\ line\ \};\ above.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00042}00042\ \textcolor{comment}{//\ See\ topic\ 1\ reading\ “Absolute\ C++.\ Pages\ 284-\/293.\ Separate\ }}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00043}00043\ \textcolor{comment}{//\ Implementation/Interface.\ Structs\ vs\ Classes”\ available\ from\ My\ Unit\ Readings}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00044}00044\ \ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00045}00045\ \textcolor{comment}{//\ A\ .h\ file\ is\ interface\ or\ header\ file.\ Implementation\ should\ exist\ in}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00046}00046\ \textcolor{comment}{//\ the\ implementation\ file.\ Implementation\ file\ have\ .cpp\ extensions.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00047}00047\ \textcolor{comment}{//\ Implementation\ is\ the\ body\ of\ the\ routine/method}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00048}00048\ \textcolor{comment}{//\ Concept\ is\ the\ same\ as\ what\ you\ did\ in\ ict159.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00049}00049\ \textcolor{comment}{//\ So\ the\ following\ implementation\ needs\ to\ be\ moved\ to\ the\ corresponding}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00050}00050\ \textcolor{comment}{//\ implementation\ file\ (Regist.cpp)}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00052}00052\ \textcolor{comment}{//\ The\ method\ is\ inlined\ only\ if\ you\ have\ empirical\ evidence\ that\ inline\ would}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00053}00053\ \textcolor{comment}{//\ improve\ the\ run-\/time\ execution\ speed.\ It\ needs\ to\ be\ moved\ to\ the\ }}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00054}00054\ \textcolor{comment}{//\ implementation\ file\ .cpp\ without\ this\ evidence.}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00056}\mbox{\hyperlink{class_registration_a729a2d6ae08aefd2dbe10ec7b3e5ce48}{00056}}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{unsigned}\ \mbox{\hyperlink{class_registration_a729a2d6ae08aefd2dbe10ec7b3e5ce48}{Registration::GetCount}}()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00057}00057\ \textcolor{keyword}{}\{}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00058}00058\ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_registration_ae3a559909696991600f8df336e5b3f83}{count}};}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00059}00059\ \}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00061}00061\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{_r_e_g_i_s_t_8_h_source_l00062}00062\ }
+
+\end{DoxyCode}

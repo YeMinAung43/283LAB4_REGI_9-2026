@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+Student ID: 34567890
+Semester:   2
+
+	Unit ID:   ICT283
+	Unit Name: Data_Structures_And_Abstractions
+	Section:   A
+	Credits:   3
+	Marks:     85.5
+	Date:      15/3/2026
+
+	Unit ID:   ICT159
+	Unit Name: Foundations_Of_Programming
+	Section:   B
+	Credits:   3
+	Marks:     92
+	Date:      20/6/2026
+
+	Unit ID:   ICT289
+	Unit Name: Computer_Graphics
+	Section:   A
+	Credits:   3
+	Marks:     78
+	Date:      10/11/2026
+
+	Unit ID:   MTH3020
+	Unit Name: Advanced_Mathematics
+	Section:   C
+	Credits:   3
+	Marks:     88.5
+	Date:      5/12/2026
+
+Number of courses = 4
+Total credits     = 12
+=======
+Student ID: 34567890
+Semester:   2
+
+	Unit ID:   ICT283
+	Unit Name: Data_Structures_And_Abstractions
+	Section:   A
+	Credits:   3
+	Marks:     85.5
+	Date:      15/3/2026
+
+	Unit ID:   ICT159
+	Unit Name: Foundations_Of_Programming
+	Section:   B
+	Credits:   3
+	Marks:     92
+	Date:      20/6/2026
+
+	Unit ID:   ICT289
+	Unit Name: Computer_Graphics
+	Section:   A
+	Credits:   3
+	Marks:     78
+	Date:      10/11/2026
+
+	Unit ID:   MTH3020
+	Unit Name: Advanced_Mathematics
+	Section:   C
+	Credits:   3
+	Marks:     88.5
+	Date:      5/12/2026
+
+Number of courses = 4
+Total credits     = 12
+>>>>>>> 41f9e42 (Update from vscode)

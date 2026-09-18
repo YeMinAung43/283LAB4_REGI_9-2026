@@ -1,0 +1,21 @@
+<map id="Registration" name="Registration">
+<area shape="rect" id="Node000001" title="Holds student details and an array of Result objects." alt="" coords="16,971,195,1259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,731,40,800"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="21,800,19,868,21,907,27,946,29,954,24,955,22,947,16,908,13,868,16,800"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="202,5,227,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,56,167,104,148,137,133,171,119,236,109,321,99,529,98,754,102,953,97,954,92,754,93,529,104,320,114,235,128,170,143,134,163,101,200,53"/>
+<area shape="rect" id="Node000005" href="$class_u_n_i_t.html" title="Stores unit information including unit ID, name, section, and credits." alt="" coords="371,171,536,544"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="228,48,289,96,327,130,361,169,363,172,359,175,357,172,323,134,286,100,225,52"/>
+<area shape="rect" id="Node000009" href="$class_date.html" title="Manages day, month, and year numeric representations." alt="" coords="142,240,287,475"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="217,74,217,223,212,223,212,74"/>
+<area shape="rect" id="Node000004" href="$class_result.html" title="Combines a UNIT object, numeric mark, and registration Date." alt="" coords="210,624,358,907"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,907,189,957,184,954,210,905"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="379,545,352,609,347,607,374,543"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="396,5,439,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="424,74,433,153,428,154,418,75"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="470,5,506,75"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="487,75,478,154,473,153,482,74"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="312,323,347,392"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="328,392,304,607,299,607,323,392"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="237,474,260,607,255,608,232,475"/>
+</map>

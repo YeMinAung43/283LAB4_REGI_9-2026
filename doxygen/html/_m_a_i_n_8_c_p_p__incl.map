@@ -1,0 +1,21 @@
+<map id="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/MAIN.CPP" name="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/MAIN.CPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,80"/>
+<area shape="rect" id="Node000002" href="$_r_e_g_i_s_t_8_h.html" title="Header file for the Registration class." alt="" coords="62,128,146,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,80,107,112,101,112,101,80"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="90,352,161,379"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="76,82,62,104,52,129,50,141,52,154,64,206,81,257,115,337,110,339,76,259,59,208,47,155,45,141,47,127,57,102,71,79"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="170,128,235,155"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="143,78,181,115,177,119,139,82"/>
+<area shape="rect" id="Node000003" href="$_r_e_s_u_l_t_8h.html" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="133,203,219,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,153,155,190,151,193,115,157"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="108,155,125,337,120,337,103,155"/>
+<area shape="rect" id="Node000004" href="$_u_n_i_t_8h.html" title="Header file for the UNIT class using std::string." alt="" coords="256,277,322,304"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,228,258,266,255,271,194,232"/>
+<area shape="poly" id="edge8_Node000003_Node000005" title=" " alt="" coords="173,231,153,278,135,338,130,336,148,276,168,229"/>
+<area shape="rect" id="Node000007" href="$_d_a_t_e_8h.html" title="Header file for the Date class representing a calendar date." alt="" coords="162,277,232,304"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="182,229,192,262,187,263,177,231"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="262,307,169,348,167,343,260,302"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="263,352,316,379"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="292,305,292,336,287,336,287,305"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="187,306,150,343,147,339,183,303"/>
+</map>

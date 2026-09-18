@@ -1,0 +1,16 @@
+<map id="Result" name="Result">
+<area shape="rect" id="Node000001" title="Combines a UNIT object, numeric mark, and registration Date." alt="" coords="199,608,348,891"/>
+<area shape="rect" id="Node000002" href="$class_u_n_i_t.html" title="Stores unit information including unit ID, name, section, and credits." alt="" coords="12,171,177,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,537,204,591,200,594,175,539"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,48,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="36,74,54,153,48,155,31,75"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="80,5,115,75"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="100,74,99,154,94,154,94,74"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="217,5,242,75"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="219,57,190,100,163,156,159,154,185,97,215,54"/>
+<area shape="rect" id="Node000007" href="$class_date.html" title="Manages day, month, and year numeric representations." alt="" coords="201,240,346,475"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="238,74,243,98,260,223,255,224,237,99,233,75"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="370,323,406,392"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="387,392,378,463,360,545,344,593,339,592,355,543,372,462,382,392"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="276,474,276,591,271,591,271,474"/>
+</map>

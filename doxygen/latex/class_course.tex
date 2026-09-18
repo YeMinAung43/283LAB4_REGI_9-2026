@@ -1,0 +1,256 @@
+\doxysection{Course Class Reference}
+\hypertarget{class_course}{}\label{class_course}\index{Course@{Course}}
+
+
+{\ttfamily \#include $<$COURSE.\+H$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_course_a6b959ccf15d9ceed9e9c14a701561982}{Course}} ()
+\item 
+\mbox{\hyperlink{class_course_ac2121e059c09d6f311a5499fa4c3fb1c}{Course}} (const char \texorpdfstring{$\ast$}{*}nam, char sect, unsigned cred)
+\item 
+unsigned \mbox{\hyperlink{class_course_a0d6ecc51cf62d796d6c795a7e9d76aa0}{Get\+Credits}} () const
+\item 
+void \mbox{\hyperlink{class_course_ab889c7d28b861ef596262d032330410e}{Set\+Credits}} (unsigned cred)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}{name}} \mbox{[}\mbox{\hyperlink{_c_o_u_r_s_e_8_h_a0a074da20a0006b8526250383bf5855a}{Course\+Name\+Size}}\mbox{]}
+\item 
+char \mbox{\hyperlink{class_course_a72d7560507de9d84197fca46b04ac8ee}{section}}
+\item 
+int \mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_course_a34fb723016b27ed6167580748a679c5d}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_course}{Course}} \&C)
+\item 
+istream \& \mbox{\hyperlink{class_course_a9aad032462b43af24ce44ad784005e14}{operator$>$$>$}} (istream \&input, \mbox{\hyperlink{class_course}{Course}} \&C)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00034}{34}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_course_a6b959ccf15d9ceed9e9c14a701561982}\index{Course@{Course}!Course@{Course}}
+\index{Course@{Course}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{Course()}{Course()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_course_a6b959ccf15d9ceed9e9c14a701561982} 
+Course\+::\+Course (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00009}{9}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source}{COURSE.\+CPP}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \ \ \mbox{\hyperlink{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}{name}}[0]\ =\ \textcolor{charliteral}{'\(\backslash\)0'};\ \textcolor{comment}{//\ it\ is\ a\ char\ *\ string,\ not\ a\ C++\ string\ object.}}
+\DoxyCodeLine{00012\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00056}{name}}.
+
+
+
+Referenced by \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00038}{operator$<$$<$}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00027}{operator$>$$>$}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_course_a6b959ccf15d9ceed9e9c14a701561982_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_course_ac2121e059c09d6f311a5499fa4c3fb1c}\index{Course@{Course}!Course@{Course}}
+\index{Course@{Course}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{Course()}{Course()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_course_ac2121e059c09d6f311a5499fa4c3fb1c} 
+Course\+::\+Course (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{nam}{, }\item[{char}]{sect}{, }\item[{unsigned}]{cred}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00014}{14}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source}{COURSE.\+CPP}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ strncpy(\ \mbox{\hyperlink{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}{name}},\ nam,\ \mbox{\hyperlink{_c_o_u_r_s_e_8_h_a0a074da20a0006b8526250383bf5855a}{CourseNameSize}}\ );\ \ \textcolor{comment}{//strncpy\ needed\ from\ string.h}}
+\DoxyCodeLine{00018\ \ \ \mbox{\hyperlink{class_course_a72d7560507de9d84197fca46b04ac8ee}{section}}\ =\ sect;}
+\DoxyCodeLine{00019\ \ \ \mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}}\ =\ cred;}
+\DoxyCodeLine{00020\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00032}{Course\+Name\+Size}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{credits}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00056}{name}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00057}{section}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_course_a0d6ecc51cf62d796d6c795a7e9d76aa0}\index{Course@{Course}!GetCredits@{GetCredits}}
+\index{GetCredits@{GetCredits}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{GetCredits()}{GetCredits()}}
+{\footnotesize\ttfamily \label{class_course_a0d6ecc51cf62d796d6c795a7e9d76aa0} 
+unsigned Course\+::\+Get\+Credits (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00077}{77}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00078\ \{}
+\DoxyCodeLine{00079\ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}};}
+\DoxyCodeLine{00080\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{credits}}.
+
+\Hypertarget{class_course_ab889c7d28b861ef596262d032330410e}\index{Course@{Course}!SetCredits@{SetCredits}}
+\index{SetCredits@{SetCredits}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{SetCredits()}{SetCredits()}}
+{\footnotesize\ttfamily \label{class_course_ab889c7d28b861ef596262d032330410e} 
+void Course\+::\+Set\+Credits (\begin{DoxyParamCaption}\item[{unsigned}]{cred}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00082}{82}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00083\ \{}
+\DoxyCodeLine{00084\ \ \ \mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}}\ =\ cred;}
+\DoxyCodeLine{00085\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{credits}}.
+
+
+
+Referenced by \mbox{\hyperlink{_m_a_i_n_8_c_p_p_source_l00036}{main()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_course_ab889c7d28b861ef596262d032330410e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_course_a34fb723016b27ed6167580748a679c5d}\index{Course@{Course}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily \label{class_course_a34fb723016b27ed6167580748a679c5d} 
+ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os}{, }\item[{const \mbox{\hyperlink{class_course}{Course}} \&}]{C}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00038}{38}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source}{COURSE.\+CPP}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00039\ \{}
+\DoxyCodeLine{00040\ \ \ os\ <<\ \textcolor{stringliteral}{"{}\ \ Course:\ \ "{}}\ <<\ C.\mbox{\hyperlink{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}{name}}\ <<\ \textcolor{charliteral}{'\(\backslash\)n'}}
+\DoxyCodeLine{00041\ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{}\ \ Section:\ "{}}\ <<\ C.\mbox{\hyperlink{class_course_a72d7560507de9d84197fca46b04ac8ee}{section}}\ <<\ \textcolor{charliteral}{'\(\backslash\)n'}}
+\DoxyCodeLine{00042\ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{}\ \ Credits:\ "{}}\ <<\ C.\mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}}\ <<\ \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{00043\ \ \ \textcolor{keywordflow}{return}\ os;}
+\DoxyCodeLine{00044\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00009}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{credits}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00056}{name}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00057}{section}}.
+
+\Hypertarget{class_course_a9aad032462b43af24ce44ad784005e14}\index{Course@{Course}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily \label{class_course_a9aad032462b43af24ce44ad784005e14} 
+istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{input}{, }\item[{\mbox{\hyperlink{class_course}{Course}} \&}]{C}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00027}{27}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source}{COURSE.\+CPP}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00028\ \{}
+\DoxyCodeLine{00029\ \ \ input\ >>\ C.\mbox{\hyperlink{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}{name}}\ >>\ C.\mbox{\hyperlink{class_course_a72d7560507de9d84197fca46b04ac8ee}{section}}\ >>\ C.\mbox{\hyperlink{class_course_ae6859731480634f2990b1f2503bf41f8}{credits}};}
+\DoxyCodeLine{00030\ \ \ \textcolor{keywordflow}{return}\ input;}
+\DoxyCodeLine{00031\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00009}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{credits}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00056}{name}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00057}{section}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_course_ae6859731480634f2990b1f2503bf41f8}\index{Course@{Course}!credits@{credits}}
+\index{credits@{credits}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{credits}{credits}}
+{\footnotesize\ttfamily \label{class_course_ae6859731480634f2990b1f2503bf41f8} 
+int Course\+::credits\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00058}{58}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+
+Referenced by \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00014}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00077}{Get\+Credits()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00038}{operator$<$$<$}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00027}{operator$>$$>$}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00082}{Set\+Credits()}}.
+
+\Hypertarget{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7}\index{Course@{Course}!name@{name}}
+\index{name@{name}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{class_course_a0fe5cd1c8e7258a8c2e1e586928faeb7} 
+char Course\+::name\mbox{[}\mbox{\hyperlink{_c_o_u_r_s_e_8_h_a0a074da20a0006b8526250383bf5855a}{Course\+Name\+Size}}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00056}{56}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+
+Referenced by \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00009}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00014}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00038}{operator$<$$<$}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00027}{operator$>$$>$}}.
+
+\Hypertarget{class_course_a72d7560507de9d84197fca46b04ac8ee}\index{Course@{Course}!section@{section}}
+\index{section@{section}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{section}{section}}
+{\footnotesize\ttfamily \label{class_course_a72d7560507de9d84197fca46b04ac8ee} 
+char Course\+::section\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00057}{57}} of file \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source}{COURSE.\+H}}.
+
+
+
+Referenced by \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00014}{Course()}}, \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00038}{operator$<$$<$}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p_source_l00027}{operator$>$$>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/yemin/\+One\+Drive/\+Desktop/\+Kaplan/2025 TSA/\+ICT 283 Data Structure (\+Past)/\+Topic 2/\+Practical/\+Registration-\/code/\mbox{\hyperlink{_c_o_u_r_s_e_8_h}{COURSE.\+H}}\item 
+C\+:/\+Users/yemin/\+One\+Drive/\+Desktop/\+Kaplan/2025 TSA/\+ICT 283 Data Structure (\+Past)/\+Topic 2/\+Practical/\+Registration-\/code/\mbox{\hyperlink{_c_o_u_r_s_e_8_c_p_p}{COURSE.\+CPP}}\end{DoxyCompactItemize}

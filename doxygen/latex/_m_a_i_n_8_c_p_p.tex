@@ -1,0 +1,85 @@
+\doxysection{C\+:/\+Users/yemin/\+One\+Drive/\+Desktop/\+Kaplan/2025 TSA/\+ICT 283 Data Structure (Past)/\+Topic 2/\+Practical/\+Registration-\/code/\+MAIN.CPP File Reference}
+\hypertarget{_m_a_i_n_8_c_p_p}{}\label{_m_a_i_n_8_c_p_p}\index{C:/Users/yemin/OneDrive/Desktop/Kaplan/2025 TSA/ICT 283 Data Structure (Past)/Topic 2/Practical/Registration-\/code/MAIN.CPP@{C:/Users/yemin/OneDrive/Desktop/Kaplan/2025 TSA/ICT 283 Data Structure (Past)/Topic 2/Practical/Registration-\/code/MAIN.CPP}}
+{\ttfamily \#include "{}course.\+h"{}}\newline
+{\ttfamily \#include "{}regist.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+Include dependency graph for MAIN.\+CPP\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{_m_a_i_n_8_c_p_p__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_m_a_i_n_8_c_p_p_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_m_a_i_n_8_c_p_p_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{MAIN.CPP@{MAIN.CPP}!main@{main}}
+\index{main@{main}!MAIN.CPP@{MAIN.CPP}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{_m_a_i_n_8_c_p_p_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_m_a_i_n_8_c_p_p_source_l00036}{36}} of file \mbox{\hyperlink{_m_a_i_n_8_c_p_p_source}{MAIN.\+CPP}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00037\ \{}
+\DoxyCodeLine{00038\ \ \ ifstream\ infile(\ \textcolor{stringliteral}{"{}rinput.txt"{}}\ );\ \textcolor{comment}{//infile\ is\ an\ object\ on\ runtime\ stack}}
+\DoxyCodeLine{00039\ \ \ \textcolor{keywordflow}{if}(\ !infile\ )\ \textcolor{keywordflow}{return}\ -\/1;}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \ \ \mbox{\hyperlink{class_registration}{Registration}}\ R;\ \ \textcolor{comment}{//R\ is\ now\ an\ object,\ like\ what\ you\ did\ in\ ict167}}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ As\ the\ keyword\ new\ is\ not\ used,\ object\ R\ exists}}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ on\ the\ runtime\ stack\ of\ main()\ and\ not\ on\ the\ heap}}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ concept\ of\ runtime\ stack,\ and\ various\ memory\ locations}}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ see\ ict170}}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \ \ infile\ >>\ R;\ \ \ \textcolor{comment}{//This\ is\ a\ subroutine\ call,\ to\ a\ function\ operator>>}}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ first\ parameter\ is\ infile,\ second\ parameter\ is\ R.}}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ syntax\ is\ different\ to\ what\ you\ have\ studied\ before}}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ but\ you\ will\ get\ used\ to\ it\ as\ the\ line\ just\ says}}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ from\ infile\ load\ into\ R}}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \ \ ofstream\ ofile(\ \textcolor{stringliteral}{"{}routput.txt"{}}\ );}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{comment}{//\ Use\ a\ debugger\ and\ track\ down\ the\ calls\ made\ "{}behind\ the\ scene"{}}}
+\DoxyCodeLine{00056\ \ \ ofile\ <<\ R\ \ \ \ \ \ \ \ \textcolor{comment}{//\ also\ a\ subroutine\ call.\ Can\ you\ guess\ what\ it\ means?}}
+\DoxyCodeLine{00057\ \ \ \ \ <<\ \textcolor{stringliteral}{"{}Number\ of\ courses\ =\ "{}}\ <<\ R.\mbox{\hyperlink{class_registration_a729a2d6ae08aefd2dbe10ec7b3e5ce48}{GetCount}}()\ <<\ \textcolor{charliteral}{'\(\backslash\)n'}}
+\DoxyCodeLine{00058\ \ \ \ \ <<\ \textcolor{stringliteral}{"{}Total\ credits\ \ \ \ \ =\ "{}}\ <<\ R.\mbox{\hyperlink{class_registration_a72a5cc800d9551d69e4c201cd9f07ccd}{GetCredits}}()\ <<\ \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \ \ \textcolor{comment}{//\ Declare\ and\ initialize\ a\ Course,\ and\ modify}}
+\DoxyCodeLine{00061\ \ \ \textcolor{comment}{//\ its\ credits.}}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \ \ \textcolor{comment}{//For\ Lab\ 3,\ you\ should\ comment\ out\ this\ line\ and\ the\ next\ 3\ lines}}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \ \ \mbox{\hyperlink{class_course}{Course}}\ aCourse(\ \textcolor{stringliteral}{"{}MTH\_3020"{}},\ \textcolor{charliteral}{'B'},\ 2\ );}
+\DoxyCodeLine{00067\ \ \ aCourse.SetCredits(\ 5\ );}
+\DoxyCodeLine{00068\ \ \ cout\ <<\ aCourse\ <<\ endl;\ \textcolor{comment}{//\ the\ operator\ <<\ for\ Course\ is\ called}}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00073\ \}}
+
+\end{DoxyCode}
+
+
+References \mbox{\hyperlink{_r_e_g_i_s_t_8_h_source_l00056}{Registration\+::\+Get\+Count()}}, \mbox{\hyperlink{_r_e_g_i_s_t_8_c_p_p_source_l00011}{Registration\+::\+Get\+Credits()}}, and \mbox{\hyperlink{_c_o_u_r_s_e_8_h_source_l00082}{Course\+::\+Set\+Credits()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{_m_a_i_n_8_c_p_p_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

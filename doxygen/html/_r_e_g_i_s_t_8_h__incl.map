@@ -1,0 +1,16 @@
+<map id="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/REGIST.H" name="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/REGIST.H">
+<area shape="rect" id="Node000001" title="Header file for the Registration class." alt="" coords="95,5,289,80"/>
+<area shape="rect" id="Node000002" href="$_r_e_s_u_l_t_8h.html" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="109,128,195,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,81,165,114,160,112,174,79"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="131,277,202,304"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="202,80,209,128,211,180,200,230,184,265,180,263,195,229,206,179,204,128,197,81"/>
+<area shape="rect" id="Node000003" href="$_u_n_i_t_8h.html" title="Header file for the UNIT class using std::string." alt="" coords="5,203,72,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,157,73,196,70,192,131,153"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="161,154,171,176,180,202,181,234,177,263,172,262,176,233,175,203,167,178,156,156"/>
+<area shape="rect" id="Node000006" href="$_d_a_t_e_8h.html" title="Header file for the Date class representing a calendar date." alt="" coords="95,203,166,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="151,156,141,189,136,187,146,154"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="62,228,132,267,130,272,59,232"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="12,277,65,304"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="41,230,41,262,36,262,36,230"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="139,229,156,262,151,264,134,231"/>
+</map>

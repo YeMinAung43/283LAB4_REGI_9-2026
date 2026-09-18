@@ -1,0 +1,7 @@
+<map id="Registration::Registration" name="Registration::Registration">
+<area shape="rect" id="Node000001" title="Default constructor for Registration. Initializes student ID, semester, and unit count to zero." alt="" coords="216,31,385,57"/>
+<area shape="rect" id="Node000002" href="$class_registration.html#a0fd17e4423f843b3a2d6d265ef12419e" title="Overloaded stream insertion operator for printing full Registration details." alt="" coords="5,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,35,168,31,169,26,201,30"/>
+<area shape="rect" id="Node000003" href="$class_registration.html#ac6e479de58958d2b0a2295ceb04926da" title="Overloaded stream extraction operator for loading Registration data." alt="" coords="5,56,168,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,58,169,62,168,57,200,53"/>
+</map>
