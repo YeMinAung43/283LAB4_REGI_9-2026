@@ -34,13 +34,29 @@
 		</Compiler>
 		<Unit filename="DATE.cpp" />
 		<Unit filename="DATE.h" />
+		<Unit filename="DATE_TEST.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="MAIN.CPP" />
 		<Unit filename="REGIST.CPP" />
 		<Unit filename="REGIST.H" />
+		<Unit filename="REGIT_TEST.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="RESULT.cpp" />
 		<Unit filename="RESULT.h" />
+		<Unit filename="RESULT_TEST.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="UNIT.cpp" />
 		<Unit filename="UNIT.h" />
+		<Unit filename="UNIT_TEST.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

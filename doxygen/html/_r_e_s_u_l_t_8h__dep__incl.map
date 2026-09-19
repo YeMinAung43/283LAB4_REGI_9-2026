@@ -1,11 +1,15 @@
 <map id="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/RESULT.h" name="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/RESULT.h">
-<area shape="rect" id="Node000001" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="234,5,427,80"/>
-<area shape="rect" id="Node000002" href="$_r_e_g_i_s_t_8_h.html" title="Header file for the Registration class." alt="" coords="122,128,316,203"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,94,255,129,251,126,284,90"/>
-<area shape="rect" id="Node000005" href="$_r_e_s_u_l_t_8cpp.html" title=" " alt="" coords="340,128,548,203"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,90,412,126,408,129,374,94"/>
-<area shape="rect" id="Node000003" href="$_m_a_i_n_8_c_p_p.html" title=" " alt="" coords="5,251,203,325"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="175,216,141,252,137,248,171,212"/>
-<area shape="rect" id="Node000004" href="$_r_e_g_i_s_t_8_c_p_p.html" title=" " alt="" coords="227,251,440,325"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="266,212,300,248,297,252,262,216"/>
+<area shape="rect" id="Node000001" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="462,5,655,80"/>
+<area shape="rect" id="Node000002" href="$_r_e_g_i_s_t_8_h.html" title="Header file for the Registration class." alt="" coords="236,136,430,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="483,90,399,138,397,133,480,85"/>
+<area shape="rect" id="Node000006" href="$_r_e_s_u_l_t_8cpp.html" title=" " alt="" coords="455,136,662,211"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="561,96,561,136,556,136,556,96"/>
+<area shape="rect" id="Node000007" href="$_r_e_s_u_l_t___t_e_s_t_8cpp.html" title=" " alt="" coords="687,128,870,219"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="635,85,703,125,701,130,632,90"/>
+<area shape="rect" id="Node000003" href="$_m_a_i_n_8_c_p_p.html" title=" " alt="" coords="5,275,203,349"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,221,167,276,164,272,257,217"/>
+<area shape="rect" id="Node000004" href="$_r_e_g_i_s_t_8_c_p_p.html" title=" " alt="" coords="227,275,440,349"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="336,226,336,274,331,274,331,226"/>
+<area shape="rect" id="Node000005" href="$_r_e_g_i_t___t_e_s_t_8cpp.html" title=" " alt="" coords="464,267,643,357"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="407,217,483,264,480,268,404,221"/>
 </map>

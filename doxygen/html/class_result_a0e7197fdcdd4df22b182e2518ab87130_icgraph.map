@@ -1,5 +1,7 @@
 <map id="Result::GetMark" name="Result::GetMark">
-<area shape="rect" id="Node000001" title=" " alt="" coords="138,5,255,32"/>
-<area shape="rect" id="Node000002" href="$_r_e_s_u_l_t_8cpp.html#a906d41b871e4c1778e208ea670cb8da2" title=" " alt="" coords="5,5,90,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,21,90,21,90,16,122,16"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,31,255,57"/>
+<area shape="rect" id="Node000002" href="$_r_e_g_i_t___t_e_s_t_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="23,5,72,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,34,72,25,73,20,123,29"/>
+<area shape="rect" id="Node000003" href="$_r_e_s_u_l_t_8cpp.html#a906d41b871e4c1778e208ea670cb8da2" title=" " alt="" coords="5,56,90,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,59,90,65,90,60,122,54"/>
 </map>

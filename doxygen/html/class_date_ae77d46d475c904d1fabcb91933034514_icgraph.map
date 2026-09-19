@@ -1,5 +1,7 @@
 <map id="Date::SetYear" name="Date::SetYear">
-<area shape="rect" id="Node000001" title="Mutator to set the year." alt="" coords="138,5,241,32"/>
-<area shape="rect" id="Node000002" href="$_d_a_t_e_8cpp.html#aed02c94f9958f3365806989bbad2c727" title=" " alt="" coords="5,5,90,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,21,90,21,90,16,122,16"/>
+<area shape="rect" id="Node000001" title="Mutator to set the year." alt="" coords="138,31,241,57"/>
+<area shape="rect" id="Node000002" href="$_d_a_t_e___t_e_s_t_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="23,5,72,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,35,72,26,73,20,123,29"/>
+<area shape="rect" id="Node000003" href="$_d_a_t_e_8cpp.html#aed02c94f9958f3365806989bbad2c727" title=" " alt="" coords="5,56,90,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,59,91,64,90,59,122,53"/>
 </map>

@@ -1,0 +1,18 @@
+<map id="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/RESULT_TEST.cpp" name="C:/Users/yemin/OneDrive/Desktop/Kaplan/2026 TSA/ICT 283 Final/Lab/Lab 4/Registration&#45;code/RESULT_TEST.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="162,5,345,96"/>
+<area shape="rect" id="Node000002" href="$_r_e_s_u_l_t_8h.html" title="Header file for the Result class wrapping a UNIT, mark, and date." alt="" coords="109,144,195,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,98,176,135,172,131,208,94"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="131,293,202,320"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="245,97,226,168,200,246,183,281,179,278,195,244,221,166,240,96"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="291,144,359,171"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="286,95,310,130,306,133,282,98"/>
+<area shape="rect" id="Node000003" href="$_u_n_i_t_8h.html" title="Header file for the UNIT class using std::string." alt="" coords="5,219,72,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,173,73,212,70,208,131,169"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="161,170,171,192,180,218,181,250,177,279,172,278,176,249,175,219,167,194,156,172"/>
+<area shape="rect" id="Node000006" href="$_d_a_t_e_8h.html" title="Header file for the Date class representing a calendar date." alt="" coords="95,219,166,245"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="151,172,141,205,136,203,146,170"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="62,244,132,283,130,288,59,248"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="12,293,65,320"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="41,246,41,278,36,278,36,246"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="139,245,156,278,151,280,134,247"/>
+</map>

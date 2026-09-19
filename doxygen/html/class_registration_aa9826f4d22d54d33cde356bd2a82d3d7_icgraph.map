@@ -1,5 +1,7 @@
 <map id="Registration::SetStudentId" name="Registration::SetStudentId">
-<area shape="rect" id="Node000001" title=" " alt="" coords="138,5,313,32"/>
-<area shape="rect" id="Node000002" href="$_r_e_g_i_s_t_8_c_p_p.html#ac6e479de58958d2b0a2295ceb04926da" title=" " alt="" coords="5,5,90,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,21,90,21,90,16,122,16"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,31,313,57"/>
+<area shape="rect" id="Node000002" href="$_r_e_g_i_t___t_e_s_t_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="23,5,72,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,32,72,25,73,19,123,27"/>
+<area shape="rect" id="Node000003" href="$_r_e_g_i_s_t_8_c_p_p.html#ac6e479de58958d2b0a2295ceb04926da" title=" " alt="" coords="5,56,90,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,61,90,66,90,61,122,56"/>
 </map>
